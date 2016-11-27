@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
-    "test": "echo 'no tests yet'"
+    "test": "tap -Rspec test/*.js --cov"
   },
   "repository": {
     "type": "git",
