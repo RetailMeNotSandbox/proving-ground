@@ -1,7 +1,7 @@
 {
   "name": "proving-ground",
   "version": "1.0.0",
-  "description": "Concurrent functional test runner",
+  "description": "Run JavaScript test files in parallel with the power of Perl's prove",
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",

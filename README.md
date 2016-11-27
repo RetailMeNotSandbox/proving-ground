@@ -1,24 +1,5 @@
 # Proving Ground
 
-## Summary
-Concurrent functional test runner
+Run JavaScript test files in parallel with the power of Perl's prove
 
-## Links
-* Jira Project: TODO
-* Wiki Page: TODO
-
-## Project Maintainer(s)
-* Product Manager: Lon Ingram
-* Tech Lead: Lon Ingram
-
-## Environment Setup
-TODO
-
-## Development Process
-TODO
-
-## Release Process
-TODO
-
-## Deployment Process
-TODO
+[![Build Status](https://travis-ci.org/RetailMeNotSandbox/proving-ground.svg?branch=master)](https://travis-ci.org/RetailMeNotSandbox/proving-ground)
