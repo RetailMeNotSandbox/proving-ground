@@ -1,0 +1,16 @@
+{
+  "name": "proving-ground-examples-leadfoot",
+  "version": "1.0.0",
+  "description": "Example of using proving-ground to run leadfoot tests in parallel",
+  "scripts": {
+    "one": "../../bin/proving-ground.js --before ./before.js --after ./after.js ./test/*.js",
+    "two": "../../bin/proving-ground.js -n 2 --before ./before.js --after ./after.js ./test/*.js",
+    "four": "../../bin/proving-ground.js -n 4 --before ./before.js --after ./after.js ./test/*.js",
+    "prepublish": "exit 1"
+  },
+  "dependencies": {
+    "leadfoot": "^1.7.0",
+    "selenium-standalone": "^5.9.0",
+    "tap": "^8.0.1"
+  }
+}

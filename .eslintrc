@@ -1,3 +1,5 @@
 # vim: set syntax=yaml:
 ---
   extends: "./node_modules/@retailmenot/core-ui-eslintrc/.eslintrc-es6"
+  rules:
+    indent: ["error", 2]

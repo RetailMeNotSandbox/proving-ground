@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Run JavaScript test files in parallel with the power of Perl's prove",
   "main": "index.js",
+  "bin": "bin/proving-ground.js",
   "scripts": {
     "lint": "eslint .",
     "test": "tap -Rspec test/*.js --cov"
@@ -29,8 +30,12 @@
     "@retailmenot/core-ui-eslintrc": "^5.0.0",
     "@retailmenot/core-ui-gitignore": "^1.0.1",
     "eslint": "^3.11.0",
+    "mockery": "^2.0.0",
+    "sinon": "^1.17.6",
     "tap": "^8.0.1"
   },
-  "dependencies": {},
+  "dependencies": {
+    "yargs": "^6.5.0"
+  },
   "keywords": []
 }
