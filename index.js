@@ -22,7 +22,7 @@ function callAsync(fn) {
     if (
       fnResult &&
       typeof fnResult.then === 'function' &&
-      typeof fnResult.then === 'function'
+      typeof fnResult.catch === 'function'
     ) {
       fnResult.then(resolve).catch(reject);
     }
