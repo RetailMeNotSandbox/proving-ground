@@ -31,6 +31,7 @@ const argv = require('yargs')
   .help('h')
   .alias('h', 'help')
   .version()
+  .epilogue('For details on prove(1), man or https://linux.die.net/man/1/prove')
   .argv;
 
 const config = {
