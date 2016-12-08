@@ -15,17 +15,17 @@ const argv = require('yargs')
   .option('n', {
     alias: 'num-processes',
     default: 1,
-    describe: 'the level of parallelism `prove` should employ',
+    describe: 'the level of parallelism prove should employ',
     type: 'string'
   })
   .option('before', {
     default: null,
-    describe: 'a module exporting a function to run before `prove`',
+    describe: 'a module exporting a function to run before prove',
     type: 'string'
   })
   .option('after', {
     default: null,
-    describe: 'a module exporting a function to run after `prove`',
+    describe: 'a module exporting a function to run after prove',
     type: 'string'
   })
   .help('h')
