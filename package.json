@@ -31,7 +31,7 @@
     "@retailmenot/core-ui-gitignore": "^1.0.1",
     "eslint": "^3.11.0",
     "mockery": "^2.0.0",
-    "sinon": "^1.17.6",
+    "sinon": "^7.3.0",
     "tap": "^8.0.1"
   },
   "dependencies": {
