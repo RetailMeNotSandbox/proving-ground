@@ -1,5 +1,6 @@
 {
   "name": "proving-ground",
+  "deprecated": "This project is no longer maintained",
   "version": "1.0.0",
   "description": "Run JavaScript test files in parallel with the power of Perl's prove",
   "main": "index.js",
